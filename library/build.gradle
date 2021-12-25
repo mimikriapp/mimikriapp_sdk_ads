@@ -36,6 +36,7 @@ dependencies {
     //Ad network
     implementation 'com.google.android.gms:play-services-ads:20.5.0'
     implementation 'com.applovin:applovin-sdk:10.3.5'
+
     implementation 'com.unity3d.ads:unity-ads:4.0.0'
 
 
@@ -43,6 +44,7 @@ dependencies {
     implementation 'com.google.ads.mediation:facebook:6.8.0.0'
     implementation 'com.applovin.mediation:google-adapter:20.5.0.2'
     implementation 'com.applovin.mediation:facebook-adapter:6.8.0.2'
+    implementation 'com.applovin.mediation:unityads-adapter:4.0.0'
 
 
     //GDPR

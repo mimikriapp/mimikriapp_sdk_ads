@@ -24,9 +24,10 @@ public class MediumNativeAdView extends LinearLayout {
 
     private Drawable adMobDrawable;
     private Drawable startAppDrawable;
+    private Drawable applovinDrawable;
 
     private Button btnNativeAdMob;
-    private Button btnNativeStartApp;
+    private Button btnNativeApplovin;
 
     public MediumNativeAdView(Context context) {
         super(context);
@@ -64,14 +65,14 @@ public class MediumNativeAdView extends LinearLayout {
         startAppDrawable = arr.getDrawable(R.styleable.NativeAdView_startappNativeButton);
 
         btnNativeAdMob = findViewById(R.id.cta);
-        btnNativeStartApp = findViewById(R.id.startapp_native_button);
+        btnNativeApplovin = findViewById(R.id.startapp_native_button);
 
         if (adMobDrawable != null) {
             setAdMobNativeButtonColor(adMobDrawable);
         }
 
-        if (startAppDrawable != null) {
-            setStartAppNativeButtonColor(startAppDrawable);
+        if (applovinDrawable != null) {
+           // setStartAppNativeButtonColor(startAppDrawable);
         }
 
         arr.recycle();
@@ -82,8 +83,8 @@ public class MediumNativeAdView extends LinearLayout {
         btnNativeAdMob.setBackground(background);
     }
 
-    public void setStartAppNativeButtonColor(Drawable background) {
-        btnNativeStartApp.setBackground(background);
+    public void setApplovinNativeButtonColor(Drawable background) {
+      //  btnNativeStartApp.setBackground(background);
     }
 
 }

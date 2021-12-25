@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/demo/src/main/res/layout/activity_main.xml" value="0.24739583333333334" />
+        <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/library/src/main/res/layout/gnt_startapp_large_template_view.xml" value="0.24739583333333334" />
+        <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/library/src/main/res/layout/gnt_startapp_medium_template_view.xml" value="0.24739583333333334" />
+        <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/library/src/main/res/layout/view_banner_ad.xml" value="0.24739583333333334" />
         <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/library/src/main/res/layout/view_native_ad_large.xml" value="0.24739583333333334" />
         <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/library/src/main/res/layout/view_native_ad_medium.xml" value="0.24739583333333334" />
       </map>
