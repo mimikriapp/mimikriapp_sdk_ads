@@ -45,7 +45,7 @@ dependencies {
     implementation 'com.google.ads.mediation:facebook:6.8.0.0'
     implementation 'com.applovin.mediation:google-adapter:20.5.0.2'
     implementation 'com.applovin.mediation:facebook-adapter:6.8.0.2'
-    implementation 'com.applovin.mediation:unityads-adapter:4.0.0'
+    implementation 'com.applovin.mediation:unityads-adapter:4.0.0.0'
 
 
     //GDPR
