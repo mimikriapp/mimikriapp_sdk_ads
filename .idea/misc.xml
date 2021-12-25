@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/demo/src/main/res/layout/activity_main.xml" value="0.24739583333333334" />
+        <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/library/src/main/res/layout/view_native_ad_large.xml" value="0.24739583333333334" />
+        <entry key="..\:/android studio/RILIS PLAY STORE/mimikriapp_sdk_ads/library/src/main/res/layout/view_native_ad_medium.xml" value="0.24739583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
