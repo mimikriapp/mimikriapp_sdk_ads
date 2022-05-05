@@ -10,10 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.mimikri.ads.sdk.R;
+
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-
-import com.mimikri.ads.sdk.R;
 
 public class MediumNativeAdView extends LinearLayout {
 
@@ -24,10 +24,9 @@ public class MediumNativeAdView extends LinearLayout {
 
     private Drawable adMobDrawable;
     private Drawable startAppDrawable;
-    private Drawable applovinDrawable;
 
     private Button btnNativeAdMob;
-    private Button btnNativeApplovin;
+    private Button btnNativeStartApp;
 
     public MediumNativeAdView(Context context) {
         super(context);
@@ -61,18 +60,13 @@ public class MediumNativeAdView extends LinearLayout {
         inflate(mContext, R.layout.view_native_ad_medium, this);
         TypedArray arr = mContext.obtainStyledAttributes(attrs, R.styleable.NativeAdView, styleAttr, 0);
 
-        adMobDrawable = arr.getDrawable(R.styleable.NativeAdView_adMobNativeButton);
-        startAppDrawable = arr.getDrawable(R.styleable.NativeAdView_startappNativeButton);
-
-        btnNativeAdMob = findViewById(R.id.cta);
-        btnNativeApplovin = findViewById(R.id.startapp_native_button);
 
         if (adMobDrawable != null) {
             setAdMobNativeButtonColor(adMobDrawable);
         }
 
-        if (applovinDrawable != null) {
-           // setStartAppNativeButtonColor(startAppDrawable);
+        if (startAppDrawable != null) {
+            setStartAppNativeButtonColor(startAppDrawable);
         }
 
         arr.recycle();
@@ -83,8 +77,8 @@ public class MediumNativeAdView extends LinearLayout {
         btnNativeAdMob.setBackground(background);
     }
 
-    public void setApplovinNativeButtonColor(Drawable background) {
-      //  btnNativeStartApp.setBackground(background);
+    public void setStartAppNativeButtonColor(Drawable background) {
+        btnNativeStartApp.setBackground(background);
     }
 
 }

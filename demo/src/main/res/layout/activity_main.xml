@@ -16,17 +16,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
-        android:layout_marginBottom="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_interstitial"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Show Interstitial Ad"
+            android:text="@string/btn_show_interstitial_ad"
             android:textAllCaps="false" />
 
         <com.mimikri.ads.sdk.ui.MediumNativeAdView

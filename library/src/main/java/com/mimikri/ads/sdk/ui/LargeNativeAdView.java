@@ -10,10 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.mimikri.ads.sdk.R;
+
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-
-import com.mimikri.ads.sdk.R;
 
 public class LargeNativeAdView extends LinearLayout {
 
@@ -60,19 +60,8 @@ public class LargeNativeAdView extends LinearLayout {
         inflate(mContext, R.layout.view_native_ad_large, this);
         TypedArray arr = mContext.obtainStyledAttributes(attrs, R.styleable.NativeAdView, styleAttr, 0);
 
-        adMobDrawable = arr.getDrawable(R.styleable.NativeAdView_adMobNativeButton);
-        startAppDrawable = arr.getDrawable(R.styleable.NativeAdView_startappNativeButton);
 
-        btnNativeAdMob = findViewById(R.id.cta);
-        btnNativeStartApp = findViewById(R.id.startapp_native_button);
 
-        if (adMobDrawable != null) {
-            setAdMobNativeButtonColor(adMobDrawable);
-        }
-
-        if (startAppDrawable != null) {
-            setStartAppNativeButtonColor(startAppDrawable);
-        }
 
         arr.recycle();
 
